@@ -1,0 +1,54 @@
+/* 
+HTML: h1, h2, ul, img, p
+CSS:
+font-size
+font-family
+border (defines a border around an HTML element),
+margin (defines a margin (space) outside the border), 
+padding (defines a padding (space) between the text and the border), 
+color ,
+<span> example: <p>My mother has <span style="color:blue;font-weight:
+bold">blue</span> eyes </p>
+*/
+.name {
+  float: left;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+h1 {
+  font-size: 2.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  border-radius: 150px;
+  max-width: 175px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+footer {
+  text-align: center;
+}
