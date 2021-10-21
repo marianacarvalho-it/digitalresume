@@ -10,31 +10,34 @@ the border), color ,
 font-weight:bold">blue</span> eyes </p>
 ohter example:
 border: 0.5rem outset pink;
-  outline: 0.5rem solid khaki;
-  box-shadow: 0 0 0 2rem skyblue;
-  border-radius: 12px;
-  font: bold 1rem sans-serif;
-  margin: 2rem;
-  padding: 1rem;
-  outline-offset: 0.5rem;*/
-  * 
+outline: 0.5rem solid khaki;
+box-shadow: 0 0 0 2rem skyblue;
+border-radius: 12px;
+font: bold 1rem sans-serif;
+margin: 2rem;
+padding: 1rem;
+outline-offset: 0.5rem;*/
+
 body {
   background-color: rgb(204, 200, 200);
   font-size: 18px;
   margin: 0 auto;
-/*DICA para deixar a página/quadrado centralizado, usar margin: 0 auto*/
 }
-/* para deixar a nav toda estilizada posso fazer no CSS:
+
+/*DICA para deixar a página/quadrado centralizado, usar margin: 0 auto*/
+/*para deixar a nav toda estilizada posso fazer no CSS:
 nav ul li .classe or wahtever{background-color: green; 
 e outros parametros} or
 <nav id="main-menu">  ul li abre e fecha </nav> 
 aí a configuração no css vai ser: #main-menu { bla bla bla }
 <nav id="footer-menu"> ul li abre e fecha </nav><*/
+
 .name {
   float: left;
   margin-top: 50px;
   margin-left: 20px;
 }
+
 .boxdemo {
   background-color: white;
   padding: 2px; /*fica a voltad do content, distância da 
@@ -43,11 +46,13 @@ aí a configuração no css vai ser: #main-menu { bla bla bla }
   margin: 15px; pink /*é a linha de fora do quadrado. Padding e margin
 faz parte do layout da webpage*/
 }
+
 .first {
   background-color: white;    
   margin: 15px;
   border: 3px solid grey;
 }
+
 .second {
   background-color: white;    
   margin: 15px;
@@ -59,28 +64,34 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
+
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
+
 h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
+
 h4 {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
+
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   line-height: 1.0;
 }
+
 li {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   margin: 10px;
 }
+
 img {
   width: 150px;
   height: 150px;
@@ -90,6 +101,7 @@ img {
   margin-top: 20px;
   margin-left: 20px;
 }
+
 footer {
   margin-bottom: 30px;
   font-size: 0,3rem;
